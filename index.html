@@ -1,35 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ms">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NETWORK PROJECT MANAGEMENT SYSTEM</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Network Project Management System</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
-    html, body {
+    body {
+      min-height: 100dvh;
       margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      height: 100dvh; /* Pelarasan automatik untuk bar pelayar telefon pintar */
-      overflow: hidden;
-      background-color: #ffffff;
+      display: grid;
+      place-items: center;
+      padding: 1.5rem;
+      box-sizing: border-box;
+      background: #f3f6fa;
+      color: #142947;
+      font: 1rem system-ui, sans-serif;
     }
-    iframe {
-      display: block;
-      width: 100%;
-      height: 100%;
-      border: none;
+    main { max-width: 28rem; text-align: center; }
+    h1 { font-size: clamp(1.5rem, 5vw, 2rem); }
+    a {
+      display: inline-block;
+      padding: .8rem 1.3rem;
+      border-radius: .5rem;
+      background: #174582;
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <iframe 
-    src="https://script.google.com/macros/s/AKfycbz-ITnZTgiiSlbCji5pnkNIvOUpR6GkI82_Jhqd3u3FcSxJ3EI1GgHRO4VYSlAmxyQ/exec" 
-    allow="camera; microphone; geolocation"
-    allowfullscreen>
-  </iframe>
+  <main>
+    <h1>Network Project Management System</h1>
+    <a href="https://script.google.com/macros/s/AKfycbz-ITnZTgiiSlbCji5pnkNIvOUpR6GkI82_Jhqd3u3FcSxJ3EI1GgHRO4VYSlAmxyQ/exec">Buka Sistem</a>
+    <p>Log masuk dengan akaun Google yang digunakan untuk deploy sistem.</p>
+  </main>
 </body>
 </html>
